@@ -16,5 +16,8 @@ Your slack username must be set to environment variable SLACK_USER.
 Your slack api key must be set to environment variable SLACK_API.
 
 ```sh
+export SLACK_USER='myusername'
+export SLACK_API='myapikey'
+
 slackcast.php [channel] [audiofile.wav]
 ```
