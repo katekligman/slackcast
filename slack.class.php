@@ -15,7 +15,7 @@ class Slack {
     $this->slack_user_id = '';
 
     // create the cache folder
-    @mkdir("cache") or die ("Cannot create folder cache\r\n");
+    @mkdir("cache");
   }
 
   public function load_slack_user_id() {
